@@ -9,7 +9,9 @@
     "dev": "vuepress dev .",
     "prebuild": "node .vuepress/scripts/yml-parse-check.js",
     "build": ".vuepress/scripts/build.sh",
-    "postbuild": "node .vuepress/scripts/strip-guide-parts-from-sitemap.js"
+    "postbuild": "node .vuepress/scripts/strip-guide-parts-from-sitemap.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -29,7 +31,9 @@
     "js-yaml": "^3.13.1",
     "markdown-it-attrs": "2.3.2",
     "vuepress-plugin-sitemap": "^2.1.2",
-    "xml2js": "^0.4.19"
+    "xml2js": "^0.4.19",
+    "@snyk/protect": "latest"
   },
-  "browserslist": "> 0.25%"
+  "browserslist": "> 0.25%",
+  "snyk": true
 }
