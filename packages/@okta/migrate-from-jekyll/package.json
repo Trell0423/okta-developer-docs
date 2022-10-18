@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "Apache-2.0",
   "dependencies": {
-    "@vuepress/shared-utils": "^1.0.0-alpha.44",
+    "@vuepress/shared-utils": "^1.0.0",
     "fs-extra": "^7.0.1",
     "gray-matter": "^4.0.1"
   },
