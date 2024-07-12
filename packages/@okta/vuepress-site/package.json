@@ -26,7 +26,7 @@
     "semver": "^7.3.8"
   },
   "dependencies": {
-    "bootstrap": "^4.6.1",
+    "bootstrap": "^5.0.0",
     "esm": "^3.0.0",
     "js-yaml": "^3.13.1",
     "markdown-it": "^12.3.2",
